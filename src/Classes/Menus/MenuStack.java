@@ -30,6 +30,7 @@ public class MenuStack {
             System.out.print("Write the number of one option: ");
             Operation = Option(Operation);
         } while (Operation != _TypeStack.length);
+        return;
     }
 
     private int Option(int option) {

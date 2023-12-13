@@ -32,6 +32,7 @@ public class SubMenuStackS {
             System.out.print("Write the number of one option: ");
             Operation = Option(Operation);
         } while (Operation != _OptionList.length - 1);
+        
     }
 
     private int Option(int option) {

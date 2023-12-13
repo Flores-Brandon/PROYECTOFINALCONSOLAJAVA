@@ -54,7 +54,7 @@ public class MenuStructures {
 
             case Queues -> _ShowMenuQueue.CycleQueue(Numer);
 
-            case List -> _ShowMenuList.CycleList(Numer);
+            case List -> _ShowMenuList.cycleList(Numer);
 
             case Tree -> _ShowMenuTree.CycleTree(Numer);
 
