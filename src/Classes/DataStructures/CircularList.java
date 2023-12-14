@@ -6,13 +6,11 @@ package Classes.DataStructures;
 import Classes.ImethodLists;
 import Classes.*;
 import java.util.Objects;
-/**
- *
- * @author andre
- */
-public class CircularList<T> implements ImethodLists<T> {
-    private Node<T> Head;
+
+//public class CircularList<T> implements ImethodLists<T> {
+    /**private Node<T> Head;
     private Node<T> LastNode;
+    
     public int Lenght;
 
     public CircularList() {
@@ -171,5 +169,5 @@ public class CircularList<T> implements ImethodLists<T> {
     public void clear() {
         Head = null;
         LastNode = null;
-    }
-}
+    }*/
+//}
